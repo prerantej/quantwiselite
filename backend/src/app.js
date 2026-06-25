@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+require('./config/db'); // Force initialize and seed database
 const apiRoutes = require('./routes/api');
 
 const app = express();
